@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon(1).ico">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <title>PE JavaScrpit Ruben Capota</title>
+</head>
+
+<body>
+    <!--Met behulp va deze URL heb ik Het formulier opgebouwt
+    https://getbootstrap.com/docs/4.3/components/forms/
+    -->
+    <main class="container">
+        <h1 id="titel1">Registreren</h1>
+        <h4 id="titel2">Door u aan te melden bij Ruben's security network, bescherm je u volledige software tegen hackers en
+            malware!</h4>
+        <br><br>
+        <form name="formID" action="js_pe_r0830954_Ruben_Capota" method="POST">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="achternaam">Achternaam
+                                <input type="text" class="form-control" id="achternaam" required
+                                    placeholder="Vul hier u naam in">
+                            </label>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="voornaam">Voornaam
+                                <input type="text" class="form-control" id="voornaam" required
+                                    placeholder="Vul hier u Voornaam in">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </label>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inlineFormInputGroupUsername2">Gebruikersnaam</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <div class="input-group-prepend">
+                                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                    placeholder="Username">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword5">Wachtwoord
+                                <input type="password" id="inputPassword5" class="form-control"
+                                     placeholder="Geef een wachtwoord in">
+                            </label>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword6">Bevestiging wachtwoord
+                                <input type="password" id="inputPassword6" class="form-control"
+                                     placeholder="Bevestig wachtwoord">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="inputAddress">Adres</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Vul hier u adres">
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm">
+                            <label for="inputZip">Postcode</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="bv: 2300">
+                        </div>
+                        <div class="col-sm">
+                            <label for="inputCountry">Land</label>
+                            <select id="inputCountry" class="form-control">
+                                <option selected>Kies...</option>
+                                <option>Belgie</option>
+                                <option>Nederland</option>
+                                <option>Frankrijk</option>
+                                <option>Duitsland</option>
+                                <option>England</option>
+                                <option>Roemenie</option>
+                                <option>Spanje</option>
+                                <option>Portugal</option>
+                                <option>Italie</option>
+                            </select>
+                        </div>
+                        <div class="col-sm">
+                            <label for="inputState">Provincie</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Kies...</option>
+                                <option>Antwerpen</option>
+                                <option>Brussel</option>
+                                <option>Limburg</option>
+                                <option>West-Vlanderen</option>
+                                <option>Oost-Vlanderen</option>
+                                <option>Luxemburg</option>
+                                <option>Luik</option>
+                                <option>Vlaams Brabant</option>
+                                <option>Waals Brabant</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <h4>Hou me op de hoogte</h4>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    Inschrijven voor onze nieuwsbrief
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                <label class="form-check-label" for="gridCheck2">
+                                    Ik wil mails ontvangen met promo's en gebeurtenissen
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                
+                                <label class="form-check-label" for="idakoord">
+                                    <input class="form-check-input" type="checkbox" id="idakoord">
+                                    Ik ga akoord met de algemeene voorwarden
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <h4>Manier van betaling</h4>
+                            <div class="form-check">
+                                
+                                <input id="betaling" type="radio" name="yesno" value="Bankcontact" > Bankcontact
+                                <br>
+                                
+                            </div>
+                            <div class="form-check">
+                                <input id="betaling" type="radio" name="yesno" value="Bitcoin"> Bitcoin
+                                <br>
+                            </div>
+                            <div class="form-check">
+                                <input id="betaling" type="radio" name="yesno" value="Mastercard"> Mastercard
+                                <br>
+                            </div>
+                            <div class="form-check">
+                                <input id="betaling" type="radio" name="yesno" value="Pay-Pal" > Pay-Pal
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="idErrors" class="hidden">
+                        <div class="alert alert-danger" role="alert">
+                            <h4>Yikes, errors...</h4>
+                            <p id="errors"> <br><br> </p>
+                        </div>
+                    </div>
+                    <div id="idCorrect" class="hidden">
+                        <div class="alert alert-success" role="alert">
+                            <h4>Goed gedaan!</h4>
+                            <p>aww yeah, je werd geregistreerd...</p>
+                        </div>
+                    </div>
+                    <div id="betalingswijze" class="hidden">
+                        <div class="alert alert-info" role="alert">
+                            <h4>Betalingswijze!</h4>
+                            <p id="idInfo"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <button id="btnClick" type="button" class="btn btn-primary btn-lg btn-block">Wave your magic wand!</button>
+        </form>
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <script src="js/js.pe.js"></script>
+
+
+</body>
+
+</html>
